@@ -105,7 +105,7 @@ app.get("/products", async (req, res) => {
 
     let query = {};
 
-    if (category && category !== "all") {
+    if (category && category !== "all; clothes;car;land; others; phone") {
       query.category = category;
     }
 
